@@ -20,7 +20,11 @@ body {
 
 /* Style the footer */
 .footer {
-    background-color: yellow;
+    background-color:yellow;
     padding: 10px;
     text-align: center;
+    color:black;
+    position: fixed;
+     bottom: 0;
+     width: 100%;
   }
