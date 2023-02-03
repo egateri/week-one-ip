@@ -1,0 +1,17 @@
+body
+ {background-color:cyan;
+
+
+}
+
+#lu1 {
+    list-style-type:circle;
+    color: green;
+
+}
+
+table {
+    color:red;
+    border: 1px solid red;
+    border-radius: 7px;
+}
