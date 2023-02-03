@@ -4,12 +4,12 @@ body {
   margin: 0px;
 }
 
-
 /* Style for the header */
 .header {
   background-color: red;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+
 }
 
 /* Style the top navigation bar */
@@ -20,11 +20,20 @@ body {
 
 /* Style the footer */
 .footer {
-    background-color:yellow;
-    padding: 10px;
-    text-align: center;
-    color:black;
-    position: fixed;
-     bottom: 0;
-     width: 100%;
+  background-color: yellow;
+  padding:10px;
+  text-align: center;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* span style */
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    /* font-family: algerian, courier; */
+    line-height: 80%;
+    margin:1px;
   }
