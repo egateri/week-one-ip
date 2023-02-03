@@ -4,6 +4,7 @@ body {
   margin: 0px;
 }
 
+
 /* Style for the header */
 .header {
   background-color: red;
@@ -19,7 +20,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: brow;
-  padding: 10px;
-  text-align: center;
-}
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+  }
