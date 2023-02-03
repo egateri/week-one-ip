@@ -1,17 +1,25 @@
-body
- {background-color:cyan;
-
-
+/* CSS Style of the body */
+body {
+  background-color: rgb(212, 212, 212);
+  margin: 0px;
 }
 
-#lu1 {
-    list-style-type:circle;
-    color: green;
-
+/* Style for the header */
+.header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
 }
 
-table {
-    color:red;
-    border: 1px solid red;
-    border-radius: 7px;
+/* Style the top navigation bar */
+.navigation {
+  overflow: hidden;
+  background-color: blue;
+}
+
+/* Style the footer */
+.footer {
+  background-color: brow;
+  padding: 10px;
+  text-align: center;
 }
