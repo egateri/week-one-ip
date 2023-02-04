@@ -19,12 +19,7 @@ body {
   background-color: blue;
 }
 
-/* Style the row div */
-.row {
-  background-color: white;
 
-  overflow: auto;
-}
 
 /* Style the footer */
 .footer {
@@ -33,9 +28,10 @@ body {
   text-align:center;
   color: black;
   margin-top:20px;
+  
 }
 /* span style */
-span {
+#span1 {
     float: left;
     width: 0.7em;
     font-size: 400%;
@@ -46,11 +42,10 @@ span {
 
   /* Image style */
   img {
-    float: right;
-    
+   
+   width: auto;
+   height:auto;
+   background-repeat: no-repeat;
+   
   }
 
-  * {
-    box-sizing: border-box;
-  }
-  
