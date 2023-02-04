@@ -19,7 +19,6 @@ body {
 .row {
   background-color: white;
   padding: 30px;
-  
 }
 /* Style the top navigation bar */
 .navigation {
@@ -27,20 +26,29 @@ body {
   background-color: blue;
 }
 
+/* Style the top navigation bar Links*/
+.navigation a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /* Style the footer */
 .footer {
-  background-color:black;
+  background-color: blue;
   padding: 20px;
   text-align: center;
   color: white;
   margin-top: 20px;
-
 }
 /* span style */
 #beforepara {
-  float:left;
+  float: left;
   font-size: 250%;
-  padding: 0px 3px 0px 3px; 
+  padding: 0px 3px 0px 3px;
   display: inline;
 }
 
@@ -52,7 +60,7 @@ img {
 }
 
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 60%;
 }
@@ -71,7 +79,8 @@ img {
 }
 /* Responsive layout  */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -81,4 +90,4 @@ img {
     float: none;
     width: 100%;
   }
-
+}
