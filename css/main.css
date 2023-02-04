@@ -1,13 +1,14 @@
 /* CSS Style of the body */
 body {
-  background-color: rgb(212, 212, 212);
-  margin: 0px;
+  background-color:#f3f3f3;
+  padding:10px;
+
 }
 
 /* Style for the header */
 .header {
-  background-color: red;
-  padding: 10px;
+  background-color: white;
+  padding: 30px;
   text-align: center;
 
 }
@@ -18,15 +19,20 @@ body {
   background-color: blue;
 }
 
+/* Style the row div */
+.row {
+  background-color: white;
+
+  overflow: auto;
+}
+
 /* Style the footer */
 .footer {
-  background-color: yellow;
-  padding:10px;
-  text-align: center;
+  background-color:white;
+  padding:20px;
+  text-align:center;
   color: black;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  margin-top:20px;
 }
 /* span style */
 span {
@@ -37,3 +43,14 @@ span {
     line-height: 80%;
     margin:1px;
   }
+
+  /* Image style */
+  img {
+    float: right;
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
