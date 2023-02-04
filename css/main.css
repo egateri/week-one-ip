@@ -1,8 +1,7 @@
 /* CSS Style of the body */
 body {
-  background-color:#f3f3f3;
-  padding:10px;
-
+  background-color: #cfcfcf;
+  padding: 10px;
 }
 
 /* Style for the header */
@@ -10,7 +9,6 @@ body {
   background-color: white;
   padding: 30px;
   text-align: center;
-
 }
 
 /* Style the top navigation bar */
@@ -19,33 +17,27 @@ body {
   background-color: blue;
 }
 
-
-
 /* Style the footer */
 .footer {
-  background-color:white;
-  padding:20px;
-  text-align:center;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
   color: black;
-  margin-top:20px;
-  
+  margin-top: 20px;
 }
 /* span style */
-#span1 {
-    float: left;
-    width: 0.7em;
-    font-size: 400%;
-    /* font-family: algerian, courier; */
-    line-height: 80%;
-    margin:1px;
-  }
+#beforepara {
+  font-size: 150%;
+  padding: 0px 3px 3px 3px; /* top:    1em padding  */
+  /* right:  3px padding  */
+  /* bottom: 30px padding */
+  /* left:   5px padding  */
+  display: inline;
+}
 
-  /* Image style */
-  img {
-   
-   width: auto;
-   height:auto;
-   background-repeat: no-repeat;
-   
-  }
-
+/* Image style */
+img {
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
