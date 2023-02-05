@@ -14,7 +14,6 @@ Access the site on the live link to view the deployed project.
 To contribute to this project:
 1. Request to contribute 
 1. Clone the project 
-    'git clone https://github.com/egateri/week-one-ip.git'
 1. Create dev branch, develop and test  
 1. Review and request to merge the master branch
 
