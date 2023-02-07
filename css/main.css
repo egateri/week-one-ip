@@ -36,6 +36,11 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* Change color on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 /* Style the footer */
 .footer {
