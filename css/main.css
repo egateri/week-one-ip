@@ -15,11 +15,12 @@ body {
   text-align: center;
 }
 
-/* Style for row */
+/* Style for row 
 .row {
   background-color: white;
   padding: 30px;
 }
+*/
 /* Style the top navigation bar */
 .navigation {
   overflow: hidden;
@@ -90,4 +91,14 @@ img {
     float: none;
     width: 100%;
   }
+}
+/* Field to hold content */
+.field {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  color:green;
 }
