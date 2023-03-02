@@ -1,6 +1,7 @@
 /* Box sizing style */
 * {
   box-sizing: border-box;
+
 }
 /* CSS Style of the body */
 body {
@@ -25,6 +26,9 @@ body {
 .navigation {
   overflow: hidden;
   background-color: blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 /* Style the top navigation bar Links*/
@@ -41,6 +45,10 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+/* .active {
+  background-color: #04AA6D;
+} */
 
 /* Style the footer */
 .footer {
@@ -63,7 +71,6 @@ img {
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
-  
 }
 
 /* Left column */
@@ -106,5 +113,5 @@ img {
 }
 
 h3 {
-  color:green;
+  color: green;
 }
