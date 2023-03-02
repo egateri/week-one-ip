@@ -1,7 +1,7 @@
- ***
+
 ### Project Name
 About Me
-## Author
+### Author
  - Name : Eliud Gateri
  - Email: egateri@gmail.com
  - Role : Student at Moringa School
@@ -36,6 +36,6 @@ https://egateri.github.io/week-one-ip
 ### License 
 (c) 2023 Eliud Gateri
 
- ***
+
 
 
